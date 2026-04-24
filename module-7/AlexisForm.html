@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form action="form.php" method="post">
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Age: <input type="number" name="age"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    Date of Birth: <input type="date" name="dob"><br><br>
+    
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type ="radio" name="gender" value="Other"> Other<br><br>
+
+    Favorite Color:
+    <select name="color">
+        <option value="">Select</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
